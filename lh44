@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LH44 | Fan Concept</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo" data-aos="fade-down" data-aos-duration="1600" data-aos-easing="ease-out" data-aos-delay="4500">LEWIS HAMILTON<span>44</span></div>
+        <ul class="nav-links">
+            <li><a href="lh44.html">Home</a></li>
+            <li><a href="socials.html">Social</a></li>
+            <li><a href="https://www.ferrari.com/en-EN/formula1/lewis-hamilton">Racing</a></li>
+            <li><a href="https://www.uk.plus44.world/?country=IN">Store</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>STILL WE <br><span>RISE</span></h1>
+            <p>7-TIME WORLD CHAMPION | FERRARI F1 DRIVER</p>
+            <a href="explore.html" class="btn-primary">EXPLORE THE JOURNEY</a>
+        </div>
+    </header>
+
+</body>
+</html>
