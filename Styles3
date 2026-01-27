@@ -1,0 +1,162 @@
+:root {
+    --mercedes-silver: #606060;
+    --hamilton-purple: #a312e1;
+    --ferrari-red: #000000;
+    --bg-dark: #010101;
+    --card-bg: #1a1a1a;
+    --text-light: #f4f4f4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    margin: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), 
+                url('https://images.unsplash.com/photo-1541133560650-99a882483b9f?auto=format&fit=crop&q=80&w=2000');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    letter-spacing: 12px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    letter-spacing: 5px;
+    font-weight: 300;
+    color: var(--hamilton-purple);
+}
+
+.stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    padding: 3rem 1rem;
+    width: 85%;
+    margin: -60px auto 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.stat-item {
+    text-align: center;
+    min-width: 150px;
+}
+
+.stat-number {
+    color: var(--hamilton-purple);
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    color: var(--mercedes-silver);
+}
+
+.gallery {
+    padding: 6rem 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+}
+
+.card {
+    background: var(--card-bg);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    border: 1px solid #333;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    border-color: var(--hamilton-purple);
+    box-shadow: 0 10px 30px rgba(142, 68, 173, 0.2);
+}
+
+.img-container {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card-content {
+    padding: 2rem;
+}
+
+.tag {
+    background: var(--hamilton-purple);
+    padding: 4px 15px;
+    font-size: 0.75rem;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tag.ferrari {
+    background: var(--ferrari-red);
+}
+
+footer {
+    text-align: center;
+    padding: 6rem 1rem;
+    background: #110000;
+    border-top: 1px solid #222;
+}
+
+.quote {
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 1rem;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: #444;
+}
+
+@media (max-width: 600px) {
+    .stats-container {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+}
