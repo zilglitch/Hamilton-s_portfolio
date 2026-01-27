@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sir Lewis Hamilton | The Centurion</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-overlay">
+            <p class="subtitle">7-TIME WORLD CHAMPION</p>
+            <h1>SIR LEWIS HAMILTON</h1>
+            <p class="tagline">A LEGACY BEYOND THE TRACK</p>
+        </div>
+    </header>
+
+    <section class="stats-container">
+        <div class="stat-item">
+            <h2 class="stat-number">105</h2>
+            <p class="stat-label">GRAND PRIX WINS</p>
+        </div>
+        <div class="stat-item">
+            <h2 class="stat-number">104</h2>
+            <p class="stat-label">POLE POSITIONS</p>
+        </div>
+        <div class="stat-item">
+            <h2 class="stat-number">201</h2>
+            <p class="stat-label">PODIUMS</p>
+        </div>
+    </section>
+
+    <main class="gallery">
+        <article class="card">
+            <div class="img-container">
+                <img src="https://i.pinimg.com/1200x/88/a5/cc/88a5cc1f9d0fb47f56c006250c62ec88.jpg" alt="Lewis Hamilton McLaren Era">
+            </div>
+            <div class="card-content">
+                <span class="tag">The Rising Star</span>
+                <h3>2008: First World Title</h3>
+                <p>The miracle in Brazil. Lewis becomes the youngest champion of the time with McLaren, winning on the final lap.</p>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="img-container">
+                <img src="https://i.pinimg.com/736x/fa/93/6e/fa936eac378fd822a54d5e9095a650c6.jpg" alt="Lewis Hamilton Mercedes Era">
+            </div>
+            <div class="card-content">
+                <span class="tag">Dominance</span>
+                <h3>The Silver Arrows Era</h3>
+                <p>Six titles in seven years. A partnership with Mercedes-AMG that rewrote every record in the history books.</p>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="img-container">
+                <img src="https://i.pinimg.com/1200x/48/06/4a/48064a2f06d47d827182569c0fb074e2.jpg" alt="Lewis Hamilton Ferrari Move">
+            </div>
+            <div class="card-content">
+                <span class="tag ferrari">The Future</span>
+                <h3>2025: The Scarlet Chapter</h3>
+                <p>The most successful driver in history joins the most successful team. A quest for the 8th title in Maranello.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p class="quote">"Still We Rise"</p>
+        <p class="copyright">&copy; 2026 Hamilton Showcase | Designed for Fans</p>
+    </footer>
+
+</body>
+</html>
