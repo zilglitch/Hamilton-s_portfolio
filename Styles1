@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lewis Hamilton | Official Links</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+       <nav class="navbar">
+        <div class="logo">LEWIS HAMILTON<span>44</span></div>
+        <ul class="nav-links">
+            <li><a href="lh44.html">Home</a></li>
+            <li><a href="socials.html">Social</a></li>
+            <li><a href="https://www.ferrari.com/en-EN/formula1/lewis-hamilton">Racing</a></li>
+            <li><a href="https://www.uk.plus44.world/?country=IN">Store</a></li>
+        </ul>
+        </nav>
+<body>
+    <section class="social-section">
+        <div class="profile-card">
+            <h2 class="title">Lewis Hamilton</h2>
+            <p class="subtitle">STILL WE RISE</p>
+            
+            <div class="social-grid">
+                <a href="https://www.instagram.com/lewishamilton" class="icon-link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/LewisHamilton" class="icon-link" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.mission44.org" class="icon-link" target="_blank">
+                    <i class="fas fa-hand-holding-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
