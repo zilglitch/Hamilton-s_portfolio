@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LH44 | Fan Concept</title>
+    <link rel="stylesheet" href="styles1.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link href="https://db.onlinewebfonts.com/c/55f94f4aaef6ae1cd8fc974e98983d35?family=Arcane+Nine" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo" data-aos="fade-down" data-aos-duration="1600" data-aos-easing="ease-out" data-aos-delay="4500">LEWIS HAMILTON<span>44</span></div>
+        <ul class="nav-links">
+            <li><a href="lh44.html" class="logo" data-aos="fade-down" data-aos-duration="1600" data-aos-easing="ease-out" data-aos-delay="4500">Home</a></li>
+            <li><a href="socials.html" class="logo" data-aos="fade-down" data-aos-duration="1600" data-aos-easing="ease-out" data-aos-delay="4500">Social</a></li>
+            <li><a href="https://www.ferrari.com/en-EN/formula1/lewis-hamilton" class="logo" data-aos="fade-down" data-aos-duration="1600" data-aos-easing="ease-out" data-aos-delay="4500">Racing</a></li>
+            <li><a href="https://www.uk.plus44.world/?country=IN" class="logo" data-aos="fade-down" data-aos-duration="1600" data-aos-easing="ease-out" data-aos-delay="4500">Store</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 data-aos="slide-right" data-aos-duration="1600" data-aos-easing="ease-out" data-aos-delay="4500">STILL WE <br><span data-aos="slide-right" data-aos-duration="1600" data-aos-easing="ease-out" data-aos-delay="4500">RISE</span></h1>
+            <p data-aos="slide-right" data-aos-duration="1600" data-aos-easing="ease-out" data-aos-delay="4500">7-TIME WORLD CHAMPION | FERRARI F1 DRIVER</p>
+            <a href="capthca.html" class="btn-primary">EXPLORE THE JOURNEY</a>
+        </div>
+    </header>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({offset:0});
+    </script>
+</body>
+</html>
